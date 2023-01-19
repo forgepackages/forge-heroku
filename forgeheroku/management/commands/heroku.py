@@ -1,4 +1,4 @@
-from forgecore.commands import DjangoClickAliasCommand
+from forgecore.cli import DjangoClickAliasCommand
 
 from forgeheroku.cli import cli
 

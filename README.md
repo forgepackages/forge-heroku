@@ -11,8 +11,8 @@ Heroku will automatically set up a `Procfile` for you.
 Here's what it does:
 
 ```yaml
-web: forge serve
-release: forge pre-deploy
+web: forge heroku serve
+release: forge heroku pre-deploy
 ```
 
 If you need to customize your `Procfile`, simply add one to your repo!

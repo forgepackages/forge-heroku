@@ -209,9 +209,9 @@ def pre_deploy():
 
     click.secho("Running Django migrations", bold=True)
     forge.manage_cmd("migrate", check=True)
-    
+
     click.echo()
-    
+
     click.secho("Clearing expired sessions", bold=True)
     forge.manage_cmd("clearsessions", check=True)
 
